@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <title>Recimag Recipe Blog</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="index.html">Recimag Blog</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item me-3">
+                <a class="nav-link fw-bold" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link fw-bold" href="index.html">Recipes</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link fw-bold" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link fw-bold" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="hero pt-5">
+        <div class="container hero-container">
+            <h1 class="fw-bold text-center">Welcome to<br> Recimag Blog</h1>
+            <p class="pt-2 pb-5 fw-bold text-center mt-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Explicabo cupiditate laborum,
+            soluta debitis<br> iure dolore iusto adipisci optio ipsam,<br> sint amet dolorem possimus
+            voluptatum.</p>
+        </div>
+        
+    </div>
+    <div class="top-section mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center">Create a New Post</h1>
+                    <form action="" id="post-form">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label fw-bold">Title</label>
+                            <input type="text" class="form-control" id="title"
+                                placeholder="Title">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label fw-bold">Body</label>
+                            <textarea class="form-control" id="body" rows="3"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-dark" type="submit">Create Post</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-section mt-5">
+        <div class="container">
+            <div class="row" id="post-holder">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 id="post-title">post title</h6>
+                            <p id="post-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo cupiditate laborum,
+                                soluta debitis iure dolore iusto adipisci optio ipsam, sint amet dolorem possimus
+                                voluptatum. Voluptate cumque possimus autem alias maiores.</p>
+                            <div class="d-flex">
+                                <button class="btn btn-success">View</button>
+                                <button class="btn btn-primary">Update</button>
+                                <button class="btn btn-danger">Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-lg-4">
+                    <div class="contact">
+                        <p class="text-white fw-bold mb-3">Contact</p>
+                        <p class="text-white mb-3">43 Raymouth Rd. Baltemoer, London 3910</p>
+                        <p class="text-white mb-3">+1(123)-456-7890</p>
+                        <p class="text-white mb-3">+1(123)-456-7890</p>
+                        <p class="text-white mb-3">info@recimag.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="location">
+                        <p class="text-white fw-bold mb-3">Location</p>
+                        <p class="text-white mb-3">43 Raymouth Rd. Baltemoer, London 3910, UNITED KINGDOM</p>
+                        <p class="text-white mb-3">43 Somerstead Rd. Baltemoer, New York 39120, UNITED STATES OF AMERICA</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact">
+                        <p class="text-white fw-bold mb-3">Links</p>
+                        <p class="text-white mb-3 text-decoration-none">About Us</p>
+                        <p class="text-white mb-3 text-decoration-none">Contact Us</p>
+                        <p class="text-white mb-3 text-decoration-none">Services</p>
+                        <p class="text-white mb-3 text-decoration-none">Social Handles</p>
+                        <div class="social-media d-flex justify-content-left">
+                            <a href="#" class="social-media-box grow"><i class="bi bi-twitter"></i></a>
+                            <a href="#" class="social-media-box grow"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="social-media-box grow"><i class="bi bi-linkedin"></i></a>
+                            <a href="#" class="social-media-box grow"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="js/bootstrap.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
